@@ -68,7 +68,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
-  type: github
+  type: git
   repo: git@github.com:llminatoll/wakaba-review.git
   branch: master
 
