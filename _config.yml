@@ -72,3 +72,9 @@ deploy:
   repo: git@github.com:llminatoll/wakaba-review.git
   branch: master
 
+# RSS - hexo-generator-sitemap
+feed:
+    type: atom
+    path: atom.xml
+    limit: 20
+
