@@ -23,6 +23,7 @@ before_script:
 - popd
 script:
 - hexo generate
+- hexo deploy
 after_success:
 - cd public
 - git add -A
