@@ -7,18 +7,31 @@ cache:
 node_js:
 - '6'
 - node
+
 branches:
   only:
   - master
+
 before_install:
 - npm install -g hexo
 - npm install
+
 install:
 - hexo generate
+
 deploy:
   type: git
   repo: git@github.com:llminatoll/wakaba-review.git
   branch: master
+
+before_script:
+- git config --global user.name 'llminatoll via Travis CI'
+- git config --global user.email 'cam51p.g@gmail.com'
+- sed -i'' "s~git@github.com:llminatoll/wakaba-review.git~https://${GH_TOKEN}:x-oauth-basic@github.com/llminatoll/wakaba-review.git~" _config.yml
+
+script:
+- hexo deploy --silent
+
 env:
   global:
   - secure: LDKW7ItnDWXS6SK5bOfW46kEexcvgvnaUpV1LeD5sJ/mOcYG1/fXeqGXkOUcwEjg5yaKCXXWSzfxcR5xFeXXd4SgrUCOrp00VYgZr61Qg1JpACCoB/M9pMdi6NDAos/n21bYxMQR2ubyFEQksgowgeWo4ZHGdsw2bAnXhBr1JGtawm/FPbCsmVuxvwMaNIO4gLBCCv6KUbnWmhhkDl7N/JCIqYnGB6oEOsAbhxGAlgZBIz88jgRK/tMLXv4Nl5VIYwDrV0x0QzXMrUBwczlPfBbBGyOvQAd15gOOld5e3e+Vjfor5hKUA/ypuXe9AX6KjcdDk/5nAbqYjPr5kwOxm3O8lGXC6cI2gYhf3MidSF4tql9mOISvzE3WFjkSpKrdnlFO5sgnJEJAnQn/oVOmHeUvBNVqN6l5H0JjA8UkydbF/XIMfjFVm8OJXUlAaPiH4aQ/yNg97hWxzhiL5zjlLtreqHD1+rJqCfsOX/VvTEzEu27EGRGwuVTH9b8I4YAUcqS3V5kBl6edX5oIdFbx9C/y0bKPP2/mHo+4nB3swgMfmkEtrpPHsD5T9EcX9DYWYwIiW2qV1v9ZIB51yI610LlmFZEozRbaR1+2ZM24eUV16EqRj6VXjWyoUK1uFKrtDpIBIA7Ri4O+vXF5XGiNaxJBs6070LPeltXDk3AxHVc=
