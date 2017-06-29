@@ -13,8 +13,6 @@ branches:
 before_install:
 - npm install -g hexo
 - npm install
-install:
-- hexo generate
 deploy:
   type: git
   repo: git@github.com:llminatoll/wakaba-review.git
@@ -22,14 +20,14 @@ deploy:
 before_script:
 - git config --global user.name 'llminatoll via Travis CI'
 - git config --global user.email 'cam51p.g@gmail.com'
-- git clone --quiet https://github.com/llminatoll/wakaba-review.git build
-- pushd build
+- git clone --quiet https://github.com/llminatoll/wakaba-review.git public
+- pushd public
 - git checkout -b gh-pages
 - popd
 script:
-- hexo deploy --debug
+- hexo generate
 after_success:
-- cd build
+- cd public
 - git add -A
 - git commit -m 'Update'
 - '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && git push --quiet https://$GH_TOKEN@github.com/wakaba-review.git
