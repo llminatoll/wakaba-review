@@ -27,6 +27,7 @@ before_script:
 - git checkout -b gh-pages
 - popd
 script:
+- hexo generate
 - hexo deploy --silent
 after_success:
 - cd build
