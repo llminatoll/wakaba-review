@@ -19,7 +19,7 @@ before_script:
 - rm -rf public
 - git clone --quiet https://github.com/llminatoll/wakaba-review.git public
 - pushd public
-- git checkout -b gh-pages
+- git checkout -b master
 - popd
 script:
 - hexo generate
@@ -27,7 +27,7 @@ after_success:
 - cd public
 - git add -A
 - git commit -m 'Update'
-- '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && git push --quiet https://$GH_TOKEN@github.com/llminatoll/wakaba-review.git gh-pages 2> /dev/null'
+- '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && git push --quiet https://$GH_TOKEN@github.com/llminatoll/wakaba-review.git master 2> /dev/null'
 env:
   global:
   - GIT_COMMITTER_NAME=llminatoll
