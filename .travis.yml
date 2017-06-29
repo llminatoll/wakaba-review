@@ -27,7 +27,6 @@ deploy:
 before_script:
 - git config --global user.name 'llminatoll via Travis CI'
 - git config --global user.email 'cam51p.g@gmail.com'
-- sed -i'' "s~git@github.com:llminatoll/wakaba-review.git~https://${GH_TOKEN}:x-oauth-basic@github.com/llminatoll/wakaba-review.git~" _config.yml
 
 script:
 - hexo deploy --silent
