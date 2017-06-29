@@ -11,18 +11,18 @@ node_js:
   - "6"
   - "node"
 
-script:
-  - npm run eslint
-  - npm run jscs
-  - npm run test-cov
+branches:
+  only:
+  - master
 
-after_script:
-  - npm install coveralls
-  - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+before_install:
+  - npm install -g hexo
+  - npm install
+
+install:
+  - hexo generate
 
 deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
-  on:
+    type: git
+    repo: git@github.com:llminatoll/wakaba-review.git
     branch: master
