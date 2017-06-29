@@ -28,7 +28,7 @@ before_script:
 - popd
 script:
 - hexo generate
-- hexo deploy --silent
+- hexo deploy
 after_success:
 - cd build
 - git add -A
