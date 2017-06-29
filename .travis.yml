@@ -25,13 +25,27 @@ deploy:
   branch: master
 
 before_script:
-- git config --global user.name 'llminatoll via Travis CI'
-- git config --global user.email 'cam51p.g@gmail.com'
+  - git config --global user.name 'llminatoll via Travis CI'
+  - git config --global user.email 'cam51p.g@gmail.com'
+  - git clone --quiet <リポジトリのURL> build
+  - pushd build
+  - git checkout -b gh-pages
+  - popd
 
 script:
-- hexo deploy --silent
+  - hexo deploy --silent
+
+after_success:
+  - cd build
+  - git add -A
+  - git commit -m 'Update'
+  - '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && git push --quiet https://$GH_TOKEN@github.com/wakaba-review.git gh-pages 2> /dev/null'
 
 env:
   global:
   - secure: LDKW7ItnDWXS6SK5bOfW46kEexcvgvnaUpV1LeD5sJ/mOcYG1/fXeqGXkOUcwEjg5yaKCXXWSzfxcR5xFeXXd4SgrUCOrp00VYgZr61Qg1JpACCoB/M9pMdi6NDAos/n21bYxMQR2ubyFEQksgowgeWo4ZHGdsw2bAnXhBr1JGtawm/FPbCsmVuxvwMaNIO4gLBCCv6KUbnWmhhkDl7N/JCIqYnGB6oEOsAbhxGAlgZBIz88jgRK/tMLXv4Nl5VIYwDrV0x0QzXMrUBwczlPfBbBGyOvQAd15gOOld5e3e+Vjfor5hKUA/ypuXe9AX6KjcdDk/5nAbqYjPr5kwOxm3O8lGXC6cI2gYhf3MidSF4tql9mOISvzE3WFjkSpKrdnlFO5sgnJEJAnQn/oVOmHeUvBNVqN6l5H0JjA8UkydbF/XIMfjFVm8OJXUlAaPiH4aQ/yNg97hWxzhiL5zjlLtreqHD1+rJqCfsOX/VvTEzEu27EGRGwuVTH9b8I4YAUcqS3V5kBl6edX5oIdFbx9C/y0bKPP2/mHo+4nB3swgMfmkEtrpPHsD5T9EcX9DYWYwIiW2qV1v9ZIB51yI610LlmFZEozRbaR1+2ZM24eUV16EqRj6VXjWyoUK1uFKrtDpIBIA7Ri4O+vXF5XGiNaxJBs6070LPeltXDk3AxHVc=
   - secure: bFGQYpEBqTVRHSr3afSTTFLu40clGx1/rDNeWxWn0eO71vGgYwA36XdN+d1XJKg5/C+AKx4Ul3U3E1x5DHVs1Ny+zEpOZkawi7wZ3pAmMtqeWJf/RIewK6Xuq3WOA1O3yIMtYj2Zhf7OmS9jsirPP+sDk7gxeQpC9sgjquGY618W3yLx6d8mEmbSQROBhZOqld9ttuBFmsTRTLqcs5aES2Hq4Zbc2gS5Bv0ApDhE8qA0DcyMaM7kGPD9MfenJli87u/fcxbkvF0hcu0HZTmpNXkK53xRxzDEEGj9UmwdN2GSx1FrkvXkXxSYe3hpR5hJIv9XwNoAesJafl7lGQFeSzhfziw8FzcamTybFSmAoOepSWwPRJ6TEr1Exeo/4FkbD4fiahm+jsqc4u4GI+6onKN30MMqR7ihOcG5wH6BhtlJhKCpUavloipUUeeenA5w27+ZIKISQZf4AEy1Xr/vdwsMtMeERD7ZmYBRcPjTTaYV73vh0S8XsN4akznHZ3lXK68JWTKNGvSedtRZETmIdZ6zQSuVbpnDXL+Nkpp9isn67Eflcjmx8ZUy4e31cUpaXjMiU880EP82dPiFztBlJMDqQ378ZcPTkfQQbtMvvIZXvUUW2Ra2peA3T+mh5MPJk6MeCOPoGlOH0JH1frUjxSg/Wx2jxvJGP5UywcPQ0Sk=
+  - GIT_COMMITTER_NAME=llminatoll
+  - GIT_COMMITTER_EMAIL=cam51p.g@gmail.com
+  - GIT_AUTHOR_NAME=llminatoll
+  - GIT_AUTHOR_EMAIL=cam51p.g@gmail.com
