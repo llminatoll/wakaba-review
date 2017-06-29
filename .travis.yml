@@ -19,7 +19,7 @@ before_script:
 - rm -rf public
 - git clone --quiet https://github.com/llminatoll/wakaba-review.git public
 - pushd public
-- git checkout -b master
+# - git checkout -b master
 - popd
 script:
 - hexo generate
