@@ -20,6 +20,7 @@ deploy:
 before_script:
 - git config --global user.name 'llminatoll via Travis CI'
 - git config --global user.email 'cam51p.g@gmail.com'
+- rm -rf public
 - git clone --quiet https://github.com/llminatoll/wakaba-review.git public
 - pushd public
 - git checkout -b gh-pages
