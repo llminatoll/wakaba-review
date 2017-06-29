@@ -33,7 +33,7 @@ before_script:
   - popd
 
 script:
-  - hexo deploy --silent
+  - hexo deploy -g --silent
 
 after_success:
   - cd build
