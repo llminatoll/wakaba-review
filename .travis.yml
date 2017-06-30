@@ -29,7 +29,7 @@ script:
 - git commit -m 'Update'
 - '[ "$TRAVIS_BRANCH" == "master" ]'
 - '[ $GH_TOKEN ]'
-- 'git push https://$GH_TOKEN@github.com/llminatoll/wakaba-review.git gh-pages'
+- 'git push https://$GH_TOKEN@github.com/llminatoll/wakaba-review.git gh-pages 2> /dev/null'
 env:
   global:
   - GIT_COMMITTER_NAME=llminatoll
