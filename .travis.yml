@@ -17,8 +17,8 @@ before_script:
 - git config --global user.name 'llminatoll via Travis CI'
 - git config --global user.email 'cam51p.g@gmail.com'
 script:
-- hexo generate
 - 'git pull https://$GH_TOKEN@github.com/llminatoll/wakaba-review.git gh-pages'
+- hexo generate
 - git add -A
 - git commit -m 'Update'
 - '[ "$TRAVIS_BRANCH" == "master" ]'
