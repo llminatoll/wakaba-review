@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: Wakaba review
+subtitle: 「わかばちゃんと学ぶ」シリーズの書評・評判を集めました
 description:
-author: John Doe
+author: 湊川あい
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com/llminatoll/wakaba-review
+url: https://llminatoll.github.io/wakaba-review/
 root: /wakaba-review
 permalink: :year/:month/:day/:title/
 permalink_defaults:
