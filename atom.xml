@@ -1,98 +1,28 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Wakaba review</title>
+  <subtitle>「わかばちゃんと学ぶ」シリーズの書評・評判を集めました</subtitle>
+  <link href="/wakaba-review/atom.xml" rel="self"/>
   
-  <title>わかばちゃんと学ぶGit使い方入門 評判まとめ | Wakaba review</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="「Gitを会社や大学で使えるようになりたいんだけど、わかばちゃんと学ぶGit使い方入門って正直どうなの？」「実際に読んだ人はなんて言ってるの？」「具体的に、どんな内容なの？」そんな疑問を持つ方のために、読者レビュー・関連記事を集めました。 読者さんから寄せられた感想・書評 書評：わかばちゃんと学ぶ Git使い方入門 - Latest topics &amp;gt; outsider reflex 『わかば">
-<meta property="og:type" content="article">
-<meta property="og:title" content="わかばちゃんと学ぶGit使い方入門 評判まとめ">
-<meta property="og:url" content="https://llminatoll.github.io/wakaba-review/2017/07/06/324.html/index.html">
-<meta property="og:site_name" content="Wakaba review">
-<meta property="og:description" content="「Gitを会社や大学で使えるようになりたいんだけど、わかばちゃんと学ぶGit使い方入門って正直どうなの？」「実際に読んだ人はなんて言ってるの？」「具体的に、どんな内容なの？」そんな疑問を持つ方のために、読者レビュー・関連記事を集めました。 読者さんから寄せられた感想・書評 書評：わかばちゃんと学ぶ Git使い方入門 - Latest topics &amp;gt; outsider reflex 『わかば">
-<meta property="og:image" content="https://img.esa.io/uploads/production/attachments/3412/2017/07/06/7092/4225430e-938b-4f6c-86e3-0b8c2f6b8ccf.png">
-<meta property="og:image" content="https://img.esa.io/uploads/production/attachments/3412/2017/07/06/7092/ff87db8d-8f8e-4881-8411-27bc0c09a80f.png">
-<meta property="og:updated_time" content="2017-07-06T11:25:38.000Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="わかばちゃんと学ぶGit使い方入門 評判まとめ">
-<meta name="twitter:description" content="「Gitを会社や大学で使えるようになりたいんだけど、わかばちゃんと学ぶGit使い方入門って正直どうなの？」「実際に読んだ人はなんて言ってるの？」「具体的に、どんな内容なの？」そんな疑問を持つ方のために、読者レビュー・関連記事を集めました。 読者さんから寄せられた感想・書評 書評：わかばちゃんと学ぶ Git使い方入門 - Latest topics &amp;gt; outsider reflex 『わかば">
-<meta name="twitter:image" content="https://img.esa.io/uploads/production/attachments/3412/2017/07/06/7092/4225430e-938b-4f6c-86e3-0b8c2f6b8ccf.png">
+  <link href="https://llminatoll.github.io/wakaba-review/"/>
+  <updated>2017-07-06T11:25:38.000Z</updated>
+  <id>https://llminatoll.github.io/wakaba-review/</id>
   
-    <link rel="alternate" href="/atom.xml" title="Wakaba review" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/wakaba-review/css/style.css">
-  
-
-</head>
-
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/wakaba-review/" id="logo">Wakaba review</a>
-      </h1>
-      
-        <h2 id="subtitle-wrap">
-          <a href="/wakaba-review/" id="subtitle">「わかばちゃんと学ぶ」シリーズの書評・評判を集めました</a>
-        </h2>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/wakaba-review/">Home</a>
-        
-          <a class="main-nav-link" href="/wakaba-review/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://llminatoll.github.io/wakaba-review"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main"><article id="post-324.html" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/wakaba-review/2017/07/06/324.html/" class="article-date">
-  <time datetime="2017-07-06T11:25:38.000Z" itemprop="datePublished">2017-07-06</time>
-</a>
+  <author>
+    <name>湊川あい</name>
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
+  </author>
   
-    <h1 class="article-title" itemprop="name">
-      わかばちゃんと学ぶGit使い方入門 評判まとめ
-    </h1>
+  <generator uri="http://hexo.io/">Hexo</generator>
   
-
-      </header>
+  <entry>
+    <title>わかばちゃんと学ぶGit使い方入門 評判まとめ</title>
+    <link href="https://llminatoll.github.io/wakaba-review/2017/07/06/324.html/"/>
+    <id>https://llminatoll.github.io/wakaba-review/2017/07/06/324.html/</id>
+    <published>2017-07-06T11:25:38.000Z</published>
+    <updated>2017-07-06T11:25:38.000Z</updated>
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>「Gitを会社や大学で使えるようになりたいんだけど、<strong>わかばちゃんと学ぶGit使い方入門</strong>って正直どうなの？」<br>「実際に読んだ人はなんて言ってるの？」<br>「具体的に、どんな内容なの？」<br>そんな疑問を持つ方のために、読者レビュー・関連記事を集めました。<br><a target="_blank" href="https://www.amazon.co.jp/gp/product/4863542178/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4863542178&linkCode=as2&tag=cam51p-22&linkId=7ce9e777aff97d46dcec9f6aedf3429d"><br><img src="https://img.esa.io/uploads/production/attachments/3412/2017/07/06/7092/4225430e-938b-4f6c-86e3-0b8c2f6b8ccf.png"></a></p>
+    <content type="html"><![CDATA[<p>「Gitを会社や大学で使えるようになりたいんだけど、<strong>わかばちゃんと学ぶGit使い方入門</strong>って正直どうなの？」<br>「実際に読んだ人はなんて言ってるの？」<br>「具体的に、どんな内容なの？」<br>そんな疑問を持つ方のために、読者レビュー・関連記事を集めました。<br><a target="_blank" href="https://www.amazon.co.jp/gp/product/4863542178/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4863542178&linkCode=as2&tag=cam51p-22&linkId=7ce9e777aff97d46dcec9f6aedf3429d"><br><img src="https://img.esa.io/uploads/production/attachments/3412/2017/07/06/7092/4225430e-938b-4f6c-86e3-0b8c2f6b8ccf.png"></a></p>
 <h2 id="読者さんから寄せられた感想・書評"><a href="#読者さんから寄せられた感想・書評" class="headerlink" title="読者さんから寄せられた感想・書評"></a>読者さんから寄せられた感想・書評</h2><ul>
 <li><a href="https://www.google.co.jp/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=15&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwj93o2zo_TUAhVFrJQKHXGIBo04ChAWCDkwBA&amp;url=http%3A%2F%2Fpiro.sakura.ne.jp%2Flatest%2Fblosxom%2Freview%2Fbook%2F2017-04-30_wakaba-git.htm&amp;usg=AFQjCNHSjQ4QnDdTpHMorZMMewjOi8Hiiw" target="_blank" rel="external">書評：わかばちゃんと学ぶ Git使い方入門 - Latest topics &gt; outsider reflex</a></li>
 <li><a href="http://yamaimo.hatenablog.jp/entry/2017/04/26/200000" target="_blank" rel="external">『わかばちゃんと学ぶ　Git使い方入門』を読んでみた。</a></li>
@@ -138,88 +68,15 @@
 <h2 id="Amazonで書籍の冒頭を試し読みできます"><a href="#Amazonで書籍の冒頭を試し読みできます" class="headerlink" title="Amazonで書籍の冒頭を試し読みできます"></a>Amazonで書籍の冒頭を試し読みできます</h2><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=cam51p-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4863542178&linkId=0cc06e7d54d674b86a3301d4b46a4e7b&bc1=ffffff&lt1=_top&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr"><br>    </iframe>
 
 <h2 id="この記事はesa-io-Hexo-TravisCIで書かれました"><a href="#この記事はesa-io-Hexo-TravisCIで書かれました" class="headerlink" title="この記事はesa.io + Hexo + TravisCIで書かれました"></a>この記事はesa.io + Hexo + TravisCIで書かれました</h2><p>We❤️  <a href="https://esa.io/" target="_blank" rel="external">esa.io</a>“(\( ⁰⊖⁰)/)”<br><img width="200px" src="https://img.esa.io/uploads/production/attachments/3412/2017/07/06/7092/ff87db8d-8f8e-4881-8411-27bc0c09a80f.png"></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://llminatoll.github.io/wakaba-review/2017/07/06/324.html/" data-id="cj4s9zcao0000barlbohlvopa" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
+]]></content>
     
-  
-</article>
-
-</section>
-        
-          <aside id="sidebar">
-  
+    <summary type="html">
     
-
-  
+      &lt;p&gt;「Gitを会社や大学で使えるようになりたいんだけど、&lt;strong&gt;わかばちゃんと学ぶGit使い方入門&lt;/strong&gt;って正直どうなの？」&lt;br&gt;「実際に読んだ人はなんて言ってるの？」&lt;br&gt;「具体的に、どんな内容なの？」&lt;br&gt;そんな疑問を持つ方のために、読者レビュー・
     
-
-  
+    </summary>
     
-  
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/wakaba-review/archives/2017/07/">July 2017</a></li></ul>
-    </div>
-  </div>
-
-
+  </entry>
   
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/wakaba-review/2017/07/06/324.html/">わかばちゃんと学ぶGit使い方入門 評判まとめ</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2017 湊川あい<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/wakaba-review/" class="mobile-nav-link">Home</a>
-  
-    <a href="/wakaba-review/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  <link rel="stylesheet" href="/wakaba-review/fancybox/jquery.fancybox.css">
-  <script src="/wakaba-review/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/wakaba-review/js/script.js"></script>
-
-  </div>
-</body>
-</html>
+</feed>
