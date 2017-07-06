@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Wakaba review</title>
   <subtitle>「わかばちゃんと学ぶ」シリーズの書評・評判を集めました</subtitle>
-  <link href="/wakaba-review/atom.xml" rel="self"/>
+  <link href="/wakaba-review/wakaba-review/atom.xml" rel="self"/>
   
   <link href="https://llminatoll.github.io/wakaba-review/"/>
   <updated>2017-07-06T11:25:38.000Z</updated>
