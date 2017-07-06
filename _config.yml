@@ -75,6 +75,6 @@ deploy:
 # RSS - hexo-generator-sitemap
 feed:
     type: atom
-    path: atom.xml
+    path: wakaba-review/atom.xml
     limit: 20
 
