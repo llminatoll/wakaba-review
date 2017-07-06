@@ -5,7 +5,7 @@
   <link href="/wakaba-review/wakaba-review/atom.xml" rel="self"/>
   
   <link href="https://llminatoll.github.io/wakaba-review/"/>
-  <updated>2017-07-06T13:23:56.944Z</updated>
+  <updated>2017-07-06T13:29:44.020Z</updated>
   <id>https://llminatoll.github.io/wakaba-review/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <title>わかばちゃんと学ぶGit使い方入門 評判まとめ</title>
     <link href="https://llminatoll.github.io/wakaba-review/2017/07/06/324.html/"/>
     <id>https://llminatoll.github.io/wakaba-review/2017/07/06/324.html/</id>
-    <published>2017-07-06T13:23:56.944Z</published>
-    <updated>2017-07-06T13:23:56.944Z</updated>
+    <published>2017-07-06T13:29:44.020Z</published>
+    <updated>2017-07-06T13:29:44.020Z</updated>
     
     <content type="html"><![CDATA[<p>「Gitを会社や大学で使えるようになりたいんだけど、<strong>わかばちゃんと学ぶGit使い方入門</strong>って正直どうなの？」<br>「実際に読んだ人はなんて言ってるの？」<br>「具体的に、どんな内容なの？」<br>そんな疑問を持つ方のために、読者レビュー・関連記事を集めました。</p>
 <p><a target="_blank" href="https://www.amazon.co.jp/gp/product/4863542178/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4863542178&linkCode=as2&tag=cam51p-22&linkId=7ce9e777aff97d46dcec9f6aedf3429d">わかばちゃんと学ぶGit使い方入門 （出版社：シーアンドアール研究所）</a><br><img src="https://img.esa.io/uploads/production/attachments/3412/2017/07/06/7092/4225430e-938b-4f6c-86e3-0b8c2f6b8ccf.png"></p>
@@ -41,7 +41,11 @@
 <h2 id="hontoレビュー"><a href="#hontoレビュー" class="headerlink" title="hontoレビュー"></a>hontoレビュー</h2><ul>
 <li><a href="https://honto.jp/netstore/pd-review_0628429516.html" target="_blank">すべてのhontoレビューを見る</a></li>
 </ul>
-<h2 id="ツイッター上での言及を見る"><a href="#ツイッター上での言及を見る" class="headerlink" title="ツイッター上での言及を見る"></a>ツイッター上での言及を見る</h2><p><a class="twitter-timeline" href="https://twitter.com/search?q=%E3%82%8F%E3%81%8B%E3%81%B0%E3%81%A1%E3%82%83%E3%82%93%E6%9C%AC%20Git" data-widget-id="882882887409844224" target="_blank" rel="external">わかばちゃん本 Gitに関するツイートを見る</a><br> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?’http’:’https’;if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+”://platform.twitter.com/widgets.js”;fjs.parentNode.insertBefore(js,fjs);}}(document,”script”,”twitter-wjs”);</script></p>
+<h2 id="ツイッター上での言及を見る"><a href="#ツイッター上での言及を見る" class="headerlink" title="ツイッター上での言及を見る"></a>ツイッター上での言及を見る</h2><ul>
+<li><a href="https://twitter.com/search?f=tweets&q=%E3%82%8F%E3%81%8B%E3%81%B0%E3%81%A1%E3%82%83%E3%82%93%E3%81%A8%E5%AD%A6%E3%81%B6%20Git&src=typd" target="_blank" rel="external">「わかばちゃんと学ぶ Git」に関するツイートを見る</a></li>
+<li><a href="https://twitter.com/search?f=tweets&vertical=default&q=%E3%82%8F%E3%81%8B%E3%81%B0%E3%81%A1%E3%82%83%E3%82%93%E6%9C%AC%20Git&src=typd" target="_blank" rel="external">「わかばちゃん本 Git」に関するツイートを見る</a></li>
+<li><a href="https://twitter.com/search?f=tweets&vertical=default&q=%23%E3%82%8F%E3%81%8B%E3%81%B0%E3%81%A1%E3%82%83%E3%82%93%E3%81%A8%E5%AD%A6%E3%81%B6Git%E4%BD%BF%E3%81%84%E6%96%B9%E5%85%A5%E9%96%80&src=typd" target="_blank" rel="external">「#わかばちゃんと学ぶGit使い方入門」に関するツイートを見る</a></li>
+</ul>
 <hr>
 <h1 id="サンプル"><a href="#サンプル" class="headerlink" title="サンプル"></a>サンプル</h1><h2 id="Web連載"><a href="#Web連載" class="headerlink" title="Web連載"></a>Web連載</h2><ul>
 <li><a href="https://codeiq.jp/magazine/category/git-ai/" target="_blank" rel="external">【連載】マンガでわかるGit</a></li>
@@ -49,8 +53,9 @@
 <p>CodeIQ MAGAZINEさまにて連載しているわかばちゃんのマンガです。<br>Web連載だけでも、一応push・pullができるところまでは行けます。</p>
 <p>ブランチやマージ、プルリクエスト、リベース、リバート、チェリーピック、GitHub Pages、Bitbucketの使い方など、Gitをしっかり使えるようになりたい方向けには<a target="_blank" href="https://www.amazon.co.jp/gp/product/4863542178/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4863542178&linkCode=as2&tag=cam51p-22&linkId=7ce9e777aff97d46dcec9f6aedf3429d">書籍限定</a>で解説しています。</p>
 <h2 id="プルリク練習用リポジトリ"><a href="#プルリク練習用リポジトリ" class="headerlink" title="プルリク練習用リポジトリ"></a>プルリク練習用リポジトリ</h2><ul>
-<li><a href="https://github.com/elmas3/pull-request-practice" target="_blank" rel="external">elmas3/pull-request-practice - GitHub</a><br>書籍の中の演習で使う、プルリクエスト練習用のリポジトリです。<br>何回でも、好きなだけ練習してください。<br>平均して24時間以内にはエルマスさんがマージしてくれます。</li>
+<li><a href="https://github.com/elmas3/pull-request-practice" target="_blank" rel="external">elmas3/pull-request-practice - GitHub</a></li>
 </ul>
+<p>書籍の中の演習で使う、プルリクエスト練習用のリポジトリです。<br>何回でも、好きなだけ練習してください。<br>平均して24時間以内にはエルマスさんがマージしてくれます。</p>
 <hr>
 <h1 id="おまけコンテンツ"><a href="#おまけコンテンツ" class="headerlink" title="おまけコンテンツ"></a>おまけコンテンツ</h1><h2 id="楽しい遊び"><a href="#楽しい遊び" class="headerlink" title="楽しい遊び"></a>楽しい遊び</h2><ul>
 <li><a href="https://togetter.com/li/1025694" target="_blank" rel="external">エビで分かるCSS、寿司で分かるGit</a></li>
